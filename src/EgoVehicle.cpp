@@ -14,7 +14,7 @@ EgoVehicle::~EgoVehicle() {
 
 void EgoVehicle::SetParameters() {
 
-    const YAML::Node config = YAML::LoadFile(std::string("../config/params.yaml"));
+    const YAML::Node config = YAML::LoadFile(std::string("../dat/tracker/params.yaml"));
 
     imgBasePath = config["camera"]["imgBasePath"].as<std::string>();
     imgFileType = config["camera"]["imgFileType"].as<std::string>();
