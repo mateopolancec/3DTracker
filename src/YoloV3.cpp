@@ -3,7 +3,7 @@
 
 YoloV3::YoloV3()  {
 
-    const YAML::Node config = YAML::LoadFile(std::string("../dat/yolo_params.yaml"));
+    const YAML::Node config = YAML::LoadFile(std::string("../dat/yolo/yolo_params.yaml"));
     this->classesFile_ = config["object_detection"]["yoloClassesFile"].as<std::string>();
     this->modelConfiguration_ = config["object_detection"]["yoloModelConfiguration"].as<std::string>();
     this->modelWeights_ = config["object_detection"]["yoloModelWeights"].as<std::string>();
