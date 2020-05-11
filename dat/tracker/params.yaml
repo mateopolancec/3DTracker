@@ -1,0 +1,16 @@
+{
+  "dataPath": "../",
+  "camera": {
+              "imgBasePath": "../images/KITTI/2011_09_26/image_02/data/000000",
+              "imgFileType": ".png"
+
+  },
+  "lidar": {
+             "lidarPrefix": "../images/KITTI/2011_09_26/velodyne_points/data/000000",
+             "lidarFileType": ".bin"
+  },
+  "detectorTypes": ["HARRIS", "SHITOMASI"],
+  "descriptorTypes": ["BRISK", "ORB"],
+  "matcherTypes": ["MAT_BF"],
+  "selectorTypes": ["SEL_KNN"]
+}

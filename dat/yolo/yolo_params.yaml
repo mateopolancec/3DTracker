@@ -1,0 +1,7 @@
+{
+  "object_detection": {
+                        "yoloClassesFile": "../dat/yolo/coco.names",
+                        "yoloModelConfiguration": "../dat/yolo/yolov3.cfg",
+                        "yoloModelWeights": "../dat/yolo/yolov3.weights"
+                      }
+}
