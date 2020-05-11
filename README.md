@@ -8,7 +8,7 @@ Tracker consists of four parts:
 3. Third, parallel execution of keypoint detection, description and matching for specified detector, matcher and few different descriptor types
 4. TTC for each detected cluster in current frame (*Note: lidar data are extracted just for one object (needed better combination of lidar/camera data))
 
-<img src="images/course_code_structure.png" width="779" height="414" />
+<img src="image_02/data/0000000001.png" width="779" height="414" />
 
 Further work will be add Kalman Filter and track management. This is just begining of autonomous vehicles code base.
 
